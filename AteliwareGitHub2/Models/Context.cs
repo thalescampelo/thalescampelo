@@ -15,7 +15,7 @@ namespace AteliwareGitHub2.Models
         // If you wish to target a different database and/or database provider, modify the 'Model1' 
         // connection string in the application configuration file.
         public Context()
-            : base("Server=tcp:ateliwaregithub.database.windows.net,1433;Initial Catalog=AteliwareGitHub;Persist Security Info=False;User ID=thales;Password=AzSx123!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")
+            : base("Server=tcp:ateliwaregithub.database.windows.net,1433;Initial Catalog=AteliwareGitHub;Persist Security Info=False;User ID=thales;Password=;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;")
         {
         }
 
